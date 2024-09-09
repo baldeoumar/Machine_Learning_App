@@ -9,7 +9,7 @@ Created on Tue Aug 27 15:04:20 2024
 import streamlit as st
 import pickle
 #app=Flask(__name__)
-model=pickle.load(open('/data/logistique.pkl','rb'))
+model=pickle.load(open('data/logistique.pkl','rb'))
 
 def main():
     st.title("Bienvenu de prediction de l'etat de sante Cardiaque des Patients")
