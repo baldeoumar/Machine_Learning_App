@@ -6,6 +6,7 @@ Created on Tue Aug 27 15:04:20 2024
 """
 
 #from flask import Flask,json,request,jsonify
+import sklearn
 import streamlit as st
 import pickle
 #app=Flask(__name__)
