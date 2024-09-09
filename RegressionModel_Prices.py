@@ -22,7 +22,7 @@ import pickle
 #     ''' % bin_str
 #     st.markdown(page_bg_img,unsafe_allow_html=True)
 
-model=pickle.load(open('randomforest.pkl','rb'))
+model=pickle.load(open('data/randomforest.pkl','rb'))
 # fichier='signature.jpg'
 # setback(fichier)
 
